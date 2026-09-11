@@ -1,0 +1,9 @@
+[
+  {
+    "filename": "sample.fits",
+    "telescope": "HST",
+    "instrument": "WFPC2",
+    "obs_date": "1999-02-20",
+    "exposure_time": 300.0
+  }
+]
