@@ -26,8 +26,7 @@ DATE-OBS -> obs_date: UTC date/time of observation (Default: "N/A")
 
 EXPTIME -> exposure_time: Exposure duration in seconds (Default: 0.0)
 
-## Getting Started
-Prerequisites
+## Prerequisites
 
 Python 3.8+
 
