@@ -1,9 +1,11 @@
 # FITS Metadata Extraction Pipeline
+
 A Python-based automated data pipeline designed to parse, extract, and standardize header metadata from Flexible Image Transport System (FITS) files commonly used in astronomical and heliophysics research (e.g., NASA SDO/AIA, SOHO).
 
 The pipeline extracts key observational metadata such as telescope, instrument, observation timestamps, and exposure times, and aggregates them into a structured JSON catalog.
 
-Key Features
+## Key Features
+
 Automated Batch Processing: Ingests entire directories of .fits and .FITS data files.
 
 Defensive Parsing: Handles missing or non-standard header keys using fallback values.
@@ -13,6 +15,7 @@ Resource Management: Utilizes Python context managers ("with" statements) to pre
 Structured Output: Exports standardized records into a readable JSON catalog.
 
 ## Target Metadata Schema
+
 The extractor captures these parameters (but can be customized to your liking):
 
 TELESCOP -> telescope: Observatory or satellite name (Default: "UNKNOWN")
@@ -35,6 +38,7 @@ Install dependencies using pip:
 python -m pip install astropy
 
 ## Installation & Usage
+
 Clone this repository:
 
 git clone https://github.com/dsoon0400/FIT-file-metadata-extraction.git
@@ -42,11 +46,13 @@ git clone https://github.com/dsoon0400/FIT-file-metadata-extraction.git
 cd FitHeaderExtractor
 
 Run the extraction script:
+
 python fitheaderextractor.py
 
 View the generated JSON catalog in metadata_catalog.json.
 
-Sample Output
+## Sample Output
+
 [
   {
     "filename": "sample.fits",
@@ -59,7 +65,8 @@ Sample Output
 
 You can upload your own .fit and .FIT files into your project directory to parse them; the script will parse all .FIT and .fit files within the project directory.
 
-Tech Stack
+## Tech Stack
+
 Languages: Python 3
 
 Libraries: astropy.io.fits, os, glob, json
