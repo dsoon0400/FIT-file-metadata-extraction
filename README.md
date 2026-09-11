@@ -51,25 +51,19 @@ Run the extraction script:
 View the generated JSON catalog in `metadata_catalog.json`.
 
 ## Sample Output
-`
-[
 
+```json
+[
   {
-  
     "filename": "sample.fits",
-    
     "telescope": "HST",
-    
     "instrument": "WFPC2",
-    
     "obs_date": "1999-02-20",
-    
     "exposure_time": 300.0
-    
   }
-  
 ]
-`
+```
+
 You can upload your own .fit and .FIT files into your project directory to parse them; the script will parse all .FIT and .fit files within the project directory.
 
 ## Tech Stack
