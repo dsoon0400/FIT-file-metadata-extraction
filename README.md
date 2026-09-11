@@ -1,4 +1,4 @@
-# FITS Metadata Extraction Pipeline
+# FITS Metadata Extractor
 
 A Python-based automated data pipeline designed to parse, extract, and standardize header metadata from Flexible Image Transport System (FITS) files commonly used in astronomical and heliophysics research (e.g., NASA SDO/AIA, SOHO).
 
