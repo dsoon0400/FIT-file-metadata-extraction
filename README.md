@@ -25,6 +25,7 @@ EXPTIME -> exposure_time: Exposure duration in seconds (Default: 0.0)
 
 ## Getting Started
 Prerequisites
+
 Python 3.8+
 
 astropy library
@@ -35,7 +36,9 @@ python -m pip install astropy
 
 ## Installation & Usage
 Clone this repository:
+
 git clone https://github.com/dsoon0400/FIT-file-metadata-extraction.git
+
 cd FitHeaderExtractor
 
 Run the extraction script:
