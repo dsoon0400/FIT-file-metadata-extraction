@@ -42,7 +42,7 @@ Clone this repository:
 
 `git clone https://github.com/dsoon0400/FITS-metadata-extractor.git`
 
-`cd FitHeaderExtractor`
+`cd FITS-metadata-extractor`
 
 Run the extraction script:
 
