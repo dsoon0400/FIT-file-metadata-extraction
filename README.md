@@ -10,7 +10,7 @@ Automated Batch Processing: Ingests entire directories of .fits and .FITS data f
 
 Defensive Parsing: Handles missing or non-standard header keys using fallback values.
 
-Resource Management: Utilizes Python context managers ("with" statements) to prevent memory leaks during batch operations.
+Resource Management: Utilizes Python context managers (`with` statements) to prevent memory leaks during batch operations.
 
 Structured Output: Exports standardized records into a readable JSON catalog.
 
@@ -34,21 +34,21 @@ astropy library
 
 Install dependencies using pip:
 
-'python -m pip install astropy'
+`python -m pip install astropy`
 
 ## Installation & Usage
 
 Clone this repository:
 
-git clone https://github.com/dsoon0400/FIT-file-metadata-extraction.git
+`git clone https://github.com/dsoon0400/FIT-file-metadata-extraction.git`
 
-cd FitHeaderExtractor
+`cd FitHeaderExtractor`
 
 Run the extraction script:
 
-python fitheaderextractor.py
+`python fitheaderextractor.py`
 
-View the generated JSON catalog in metadata_catalog.json.
+View the generated JSON catalog in `metadata_catalog.json`.
 
 ## Sample Output
 
