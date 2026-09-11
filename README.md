@@ -34,7 +34,7 @@ astropy library
 
 Install dependencies using pip:
 
-python -m pip install astropy
+'python -m pip install astropy'
 
 ## Installation & Usage
 
