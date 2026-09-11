@@ -40,7 +40,7 @@ Install dependencies using pip:
 
 Clone this repository:
 
-`git clone https://github.com/dsoon0400/FIT-file-metadata-extraction.git`
+`git clone https://github.com/dsoon0400/FITS-metadata-extractor.git`
 
 `cd FitHeaderExtractor`
 
